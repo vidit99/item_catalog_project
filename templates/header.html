@@ -1,0 +1,14 @@
+<div class="row top-menu">
+	<div class="col-md-6">
+		<a href="{{url_for('branddisplay')}}">
+			</span><u>Home page</u>
+		</a>
+	</div>
+	<div class="col-md-6 text-right">
+	{% if 'username' not in session %}
+					<p> <a href="{{url_for('Login')}}"> Click to Login <span class="glyphicon glyphicon-log-in" aria-hidden="true"></a></p>
+		{% else %}
+		<p> <a href="/gdisconnect">Click to Logout <span class="glyphicon glyphicon-log-out" aria-hidden="true"> </a></p>
+		{% endif %}
+	</div>
+</div>

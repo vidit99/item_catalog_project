@@ -1,0 +1,46 @@
+{% extends "main.html" %}
+{% block content %}
+{% include "header.html" %}
+	<div class="row divider green">
+		<div class="col-md-12"></div>
+	</div>
+	<div class="row banner menu">
+		<div class="col-md-11 col-md-offset-1 padding-none">
+			<h1>New Menu Item</h1>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-6 col-md-offset-1 padding-top">
+			<form action="#" method = "post">
+				<div class="form-group">
+					<label for="name">Name of item:</label>
+					<input type ="text" maxlength="20" class="form-control" name="name" placeholder="Name of item">
+
+					<label for="description">Info:</label>
+					<textarea class="form-control" maxlength="100" rows="2" name="description" placeholder="Description of item"></textarea>
+
+					<label for="price">Cost:</label>
+					<div class="input-group">
+						<div class="input-group-addon">Rs.</div>
+						<input type ="text" class="form-control" maxlength="10" name="price" placeholder="Enter Price">
+					</div>
+					<label for="course">Type of cloth:</label>
+					<div class="radio">
+					  <label>
+					    <input type="radio" name="course" id="course1" value="Appetizer">Traditional
+					  </label>
+					</div>
+					<div class="radio">
+					  <label>
+					    <input type="radio" name="course" id="course2" value="Entree">Western
+					  </label>
+					</div>
+					
+					<button type="submit" class="btn btn-default" id="submit" type="submit">
+					Create</button>
+				</div>
+			</form>
+		</div>
+	</div>
+{% endblock %}
+

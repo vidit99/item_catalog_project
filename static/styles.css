@@ -1,0 +1,103 @@
+ p {
+ 	font-family: "Times New Roman", Georgia, Serif;
+ 	font-weight: bold;
+	font-size: 18px;
+ 	color: red;
+ }
+
+.menu-item {
+	background: #F0F0F0;
+	padding: 25px;
+	margin: 25px;
+	margin-left: -25px;
+}
+
+.top-menu a {
+	font-size: 30px;
+	color: black;
+	font-weight: bold;
+} 
+
+.banner h1 {
+	margin: 46px;
+}
+
+* {
+	font-family: "Times New Roman", Georgia, Serif;
+	font-weight: 400;
+}
+
+
+.restaurant-list:hover {
+ 	background-color: #e1e17f;
+ 	padding: 21px;
+}
+.btn {
+	padding:10px;
+	margin-top;19px;
+}
+.padding-top{
+	padding-top:11px;
+	padding-bottom:11px;
+}
+h2 {
+	font-weight: bold;
+	font-size: 35px;
+	color: yellow;
+}
+.banner.profile {
+	height: 160px;
+	background-color: #A6E8EB;
+}
+
+ a {
+ 	font-size: 15px;
+ 	color: black;
+	font-weight: bold;
+ }
+ 
+ .top-menu {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+ .flash li {
+	text-align: center;
+}
+
+
+ strong {
+ 	font-size: 20px;
+ 	color: black;
+ }
+
+ .top-menu p {
+	margin-bottom: 10px;
+}
+
+.flash {
+	background-color: white;
+	width:100%;
+}
+
+ .restaurant-list {
+ 	background-color: #F0F0F0;
+ 	padding: 15px;
+}
+
+h3 {
+	font-size: 20px;
+	color: cyan;
+	font-weight: bold;
+}
+
+h1 {
+	font-family: "Times New Roman", Georgia, Serif;
+	font-size: 70px;
+	color: blue;
+	font-weight: bold;
+}
+
+.menu-price {
+	font-weight: bold;
+}
